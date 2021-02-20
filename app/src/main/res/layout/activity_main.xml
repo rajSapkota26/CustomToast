@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Different types of toast"
+       android:layout_marginBottom="50dp"
+        android:textColor="#FF6E40"
+        android:textSize="35sp"/>
+
+    <Button
+        android:id="@+id/defaultBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Default Toast" />
+
+    <Button
+        android:id="@+id/gravityBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Simple gravity" />
+
+    <Button
+        android:id="@+id/nestedBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Nested gravity" />
+
+    <Button
+        android:id="@+id/centerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="center position" />
+
+    <Button
+        android:id="@+id/topBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Top position" />
+
+</LinearLayout>
